@@ -81,5 +81,3 @@
     * Exemplo com nextInt:
     * System.out.println("Informe sua idade: ");
     * int idade = ler.nextInt();
-
-SONIA

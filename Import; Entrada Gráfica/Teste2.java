@@ -5,8 +5,8 @@ class Teste2 {
         Scanner ler = new Scanner(System.in);
 
         System.out.print("\n\tInforme seu ano de nascimento: ");
-
         int anoNasc = ler.nextInt();
+        
         int idade = 2022 - anoNasc;
         System.out.println("\n\tVocê possui " + idade + " anos");
     }
