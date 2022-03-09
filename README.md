@@ -144,7 +144,12 @@ class Teste {
     * Aninhada(encadeada): Quando uma estrutura de decisão está localizada dentro do lado falso da outra, ou seja, se usa diversas estruturas de decisão.
         * Ex.: Um banco vai fazer uma campanha de marketing apenas com pessoas que possuem crédito acima de R$ 10.000,00, já quem deve mais de R$ 1.000,00, será cobrado. Nesse caso existem três possibilidades, uma conta pode estar postiva, negativa ou ZERADA. O primeiro teste lógico é se o dinheiro dentro da conta é igual a zero ou não, caso seja, o processo acabou, caso não seja, surgem mais duas possibilidades (negativa ou postiva), e aí entra mais uma estrutura de decisão, se o saldo é maior que 10.000,00 (para ver quem faria parte da campanha de marketing), e assim por diante, até estar tudo pronto.
 ----------------------------------------------------------------
-* If
-    * Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro
-* Else
-    * Todas as instruções que devem ser executadas caso o teste lógico seja falso
+* If (se)
+    * Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
+* Else (senão)
+    * Todas as instruções que devem ser executadas caso o teste lógico seja falso.
+    
+* *Nunca haverá um else um if.
+----------------------------------------------------------------
+* Numa estrutura de decisão simples tem apenas o If.
+
