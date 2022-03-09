@@ -118,11 +118,11 @@ class Teste {
 
 ## Operadores
 * Aritméticos (matemáticos):
-    * +
-    * -
-    * *
-    * /
-    * %
+    * "+"
+    * "-"
+    * "*"
+    * "/"
+    * "%"
 ----------------------------------------------------------------
 * Relacionais (comparação):
     * > --> maior que
