@@ -116,6 +116,23 @@ class Teste {
     * System.out.println("Informe sua idade: ");
     * int idade = ler.nextInt();
 
+## Operadores
+* Aritméticos (matemáticos):
+    * +
+    * -
+    * *
+    * /
+    * %
+----------------------------------------------------------------
+* Relacionais (comparação):
+    * > --> maior que
+    * < --> menor que
+    * >=  --> maior ou igual
+    * <= --> menor ou igual
+
+    * == --> igualdade
+    * != --> desigualdade (diferença)
+
 ## Estrutura de Decisão (ou desvio condicional)
 * Sempre que houver uma tomada de decisão é preciso acontecer um teste lógico. Ex.: Na hora de passar o bilhete único no trem, o sistema precisa tomar uma decisão, ou ele libera a catraca ou ele não libera (teste lógico), no caso, a catraca só vai ser liberada se o crédito do bilhete foi igual ou maior do que o valor da passagem.
 ----------------------------------------------------------------
@@ -124,4 +141,10 @@ class Teste {
         * Ex.: Alistamento no exército: tem 18 anos, se alista, tem menos que 18 anos, não se alista // Beber água, está com sede, bebe, não está, não bebe.
     * Composta: Se para o teste lógico a resposta for verdadeira, acontece algo, se for falsa, também acontece algo.
         * Ex.: 
-    * Aninhada(encadeada): 
+    * Aninhada(encadeada): Quando uma estrutura de decisão está localizada dentro do lado falso da outra, ou seja, se usa diversas estruturas de decisão.
+        * Ex.: Um banco vai fazer uma campanha de marketing apenas com pessoas que possuem crédito acima de R$ 10.000,00, já quem deve mais de R$ 1.000,00, será cobrado. Nesse caso existem três possibilidades, uma conta pode estar postiva, negativa ou ZERADA. O primeiro teste lógico é se o dinheiro dentro da conta é igual a zero ou não, caso seja, o processo acabou, caso não seja, surgem mais duas possibilidades (negativa ou postiva), e aí entra mais uma estrutura de decisão, se o saldo é maior que 10.000,00 (para ver quem faria parte da campanha de marketing), e assim por diante, até estar tudo pronto.
+----------------------------------------------------------------
+* If
+    * Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro
+* Else
+    * Todas as instruções que devem ser executadas caso o teste lógico seja falso
