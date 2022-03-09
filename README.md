@@ -115,3 +115,7 @@ class Teste {
     * Exemplo com nextInt:
     * System.out.println("Informe sua idade: ");
     * int idade = ler.nextInt();
+
+## Estrutura de Decisão (ou desvio condicional)
+* Ave
+** Maria
