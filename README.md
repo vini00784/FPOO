@@ -148,8 +148,8 @@ class Teste {
     * Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
 * Else (senão)
     * Todas as instruções que devem ser executadas caso o teste lógico seja falso.
-    
-* *Nunca haverá um else um if.
+
+* Nunca haverá um else sem um if.
 ----------------------------------------------------------------
 * Numa estrutura de decisão simples tem apenas o If.
 
