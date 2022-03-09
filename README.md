@@ -117,5 +117,11 @@ class Teste {
     * int idade = ler.nextInt();
 
 ## Estrutura de Decisão (ou desvio condicional)
-* Ave
-** Maria
+* Sempre que houver uma tomada de decisão é preciso acontecer um teste lógico. Ex.: Na hora de passar o bilhete único no trem, o sistema precisa tomar uma decisão, ou ele libera a catraca ou ele não libera (teste lógico), no caso, a catraca só vai ser liberada se o crédito do bilhete foi igual ou maior do que o valor da passagem.
+----------------------------------------------------------------
+* Três tipos:
+    * Simples: Só há apenas uma resposta e verdadeira, no caso de ser falsa, não acontece absolutamente nada. 
+        * Ex.: Alistamento no exército: tem 18 anos, se alista, tem menos que 18 anos, não se alista // Beber água, está com sede, bebe, não está, não bebe.
+    * Composta: Se para o teste lógico a resposta for verdadeira, acontece algo, se for falsa, também acontece algo.
+        * Ex.: 
+    * Aninhada(encadeada): 
