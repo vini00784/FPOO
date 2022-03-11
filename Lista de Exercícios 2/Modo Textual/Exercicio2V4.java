@@ -13,7 +13,7 @@ class Exercicio2V4 {
         double raiz1 = Math.sqrt(n1);
         double raiz2 = Math.sqrt(n2);
 
-        System.out.print("\n\tPotência 1 = " + raiz1);
-        System.out.print("\n\tPotência 2 = " + raiz2);
+        System.out.print("\n\tRaiz 1 = " + raiz1);
+        System.out.print("\n\tRaiz 2 = " + raiz2);
     }
 }
