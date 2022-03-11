@@ -10,8 +10,8 @@ class Exercicio2V3 {
         System.out.print("\n\tInforme outro número inteiro: ");
         int n2 = sc.nextInt();
 
-        int div = n1 % n2;
+        int mod = n1 % n2;
 
-        System.out.print("\n\tMódulo = " + div);
+        System.out.print("\n\tMódulo = " + mod);
     }
 }
