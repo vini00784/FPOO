@@ -9,7 +9,7 @@ class Exercicio1 {
 
         if (n1 > 0 || n1 < 0) {
             if (n1 > 0) {
-                System.out.print("\n\t" + n1 + ": positiv");
+                System.out.print("\n\t" + n1 + ": positivo");
             } else {
                 System.out.print("\n\t" + n1 + ": negativo");
             }
