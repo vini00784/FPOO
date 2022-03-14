@@ -1,19 +1,18 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
-class MaiorMenor {
+class MaiorMenorjp {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        JOptionPane jp = new JOptionPane();
 
-        System.out.print ("\nInforme sua idade: ");
-        int idade = sc.nextInt();
+        int idade = Integer.parseInt (jp.showInputDialog(null, "Informe sua idade"));
 
         // Delimitar um teste lógico para o limite inferior (1) e um teste lógico para o limite superior (120)
         // Para limite inferior: >=1 // Para limite superior: <=120
         // Temos dois testes lógicos: idade >=1 && idade <=120
         if (idade > 17) {
-            System.out.print ("\n\tMaior de idade!\n");
+            jp.showMessageDialog(null, "Maior de idade!");
         } else {
-            System.out.print ("\n\tMenor de idade!\n");
+            jp.showMessageDialog(null, "Menor de idade!");
         }
     }
 }
