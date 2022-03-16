@@ -7,7 +7,7 @@ class Exercicio3 {
         System.out.print("Informe um número inteiro: ");
         int n1 = sc.nextInt();
 
-        System.out.print("Informe outro número inteiro ");
+        System.out.print("Informe outro número inteiro: ");
         int n2 = sc.nextInt();
 
         if (n1 > n2 || n2 > n1) {
