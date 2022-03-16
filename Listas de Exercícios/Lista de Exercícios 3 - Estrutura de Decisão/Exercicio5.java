@@ -7,7 +7,7 @@ class Exercicio5 {
         System.out.print("\nInforme sua idade: ");
         int idade = sc.nextInt();
         
-        if (idade >= 1 && idade <= 120) {
+        if (idade >= 1 && idade <= 150) {
             if (idade >= 18) {
                 System.out.print("\n\tMaior de Idade!");
             } else {
