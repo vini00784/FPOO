@@ -13,8 +13,7 @@ class Exercicio6 {
             } else {
                 System.out.print("\n\tMenor de Idade!");
             }
-        }
-        else {
+        } else {
             System.out.print("\n\tIdade Inválida!");
         }
     }
