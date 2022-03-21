@@ -11,6 +11,7 @@ class Exercicio8 {
         double altura = sc.nextDouble();
 
         double imc = peso / (altura * altura);
+        System.out.printf("\n\tIMC = %.2f" , imc);
 
         if (imc < 17) {
             System.out.print("\n\tMuito abaixo do peso");
