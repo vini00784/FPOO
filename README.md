@@ -150,6 +150,12 @@ Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros 
     * `` "&&" `` --> E (and) --> Só entende quando todas as variáveis são verdadeiras.
     * `` "||" `` --> Ou (or) --> Basta que uma entrada seja verdadeira para que a saída seja verdadeira.             
     * `` "!" `` --> Não (not)
+---
+* Incremento:
+    * `` ++ `` --> vasco
+
+* Decremento:
+    * `` -- `` -->
 
 ## Estrutura de Decisão (ou desvio condicional)
 * Sempre que houver uma tomada de decisão é preciso acontecer um teste lógico. Ex.: Na hora de passar o bilhete único no trem, o sistema precisa tomar uma decisão, ou ele libera a catraca ou ele não libera (teste lógico), no caso, a catraca só vai ser liberada se o crédito do bilhete foi igual ou maior do que o valor da passagem.
