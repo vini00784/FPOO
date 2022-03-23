@@ -190,6 +190,7 @@ Dentro dos parênteses, vêm expressões: `` for (inicialização; teste; atuali
 * Inicialização: onde se inicia a contagem
 * Teste: determina o final da contagem
 * Atualização: determina o passo (razão) da contagem (de quanto em quanto)
+
 Exemplo: 
 
     contagem com os números 1,4,7,10 e 13:
