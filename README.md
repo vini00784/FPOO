@@ -174,4 +174,20 @@ Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros 
 ---
 * Numa estrutura de decisão simples tem apenas o If.
 
+## Estrutura de Repetição (laços/loop)
+Utilizadas quando precisam repetir algo, geralmente um padrão, como uma tabuada.
 
+---
+* `` for `` (para) --> se usa quando se sabe antecipadamente a quantidade de repetições que será feita
+    
+Sintaxe:
+
+    for( ; ; ) {
+
+    }
+
+Dentro dos parênteses, vêm expressões: for (inicialização; teste; atualização)
+
+---
+* `` while `` (enquanto) --> se usa quando NÃO SE SABE antecipadamente a quantidade de repetições que será feita.
+* `` do while ``
