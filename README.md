@@ -41,18 +41,23 @@ Espaço reservado (alocado) na memória RAM (principal) do computador para guard
 ---
 * NÃO podem começar com caracteres especiais e nem números.
 ---
-* Númericas:
+Númericas inteiras:
     * Para números inteiros: byte; short; int; long (int idade = 10;)
         * `` byte `` ---- Byte (classe wrapper (associada) do tipo primitivo byte) --> `` 8 bits ``
         * `` short `` ---- Short (classe wrapper (associada) do tipo primitivo short) --> `` 16 bits ``
         * `` int `` ---- Integer (classe wrapper (associada) do tipo primitivo int) --> `` 32 bits ``
         * `` long `` ---- Long (classe wrapper (associada) do tipo primitivo long) --> `` 64 bits ``
+
+A diferença entre essas variáveis é o tamanho do espaço que será reservado. O tamanho da variável influencia no desempenho do seu programa, cada tipo ocupa um espaço diferente. O espaço é dividido entre negativos e positivos. Quando o tamanho da variável alcançar o máximo, ele volta para o começo, ou seja, é "formado" como um ciclo.
+
+---
+Numéricas decimais:
     * Para números decimais: float; double (double altura = 1.56;)
-        * `` float `` ---- Float (classe wrapper (associada) do tipo primitivo float)
-        * `` double `` ---- Double (classe wrapper (associada) do tipo primitivo double)
+        * `` float `` ---- Float (classe wrapper (associada) do tipo primitivo float) --> `` 32 bits ``
+        * `` double `` ---- Double (classe wrapper (associada) do tipo primitivo double) --> `` 64 bits ``
     * OBS.: Todas citadas acima são tipos de variáveis primitivos do Java, ou seja, foram criados junto com a linguagem.
 
-A diferença entre essas variáveis é o tamanho do espaço que será reservado
+Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas abarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
 
 ---
 * Textuais:
