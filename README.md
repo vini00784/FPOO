@@ -186,7 +186,16 @@ Sintaxe:
 
     }
 
-Dentro dos parênteses, vêm expressões: for (inicialização; teste; atualização)
+Dentro dos parênteses, vêm expressões: `` for (inicialização; teste; atualização) ``
+* Inicialização: onde se inicia a contagem
+* Teste: determina o final da contagem
+* Atualização: determina o passo (razão) da contagem (de quanto em quanto)
+Exemplo: 
+
+    contagem com os números 1,4,7,10 e 13:
+    for (int i=1; i <= 13 ; i=i+3 ) {
+        System.out.print(i);
+    }
 
 ---
 * `` while `` (enquanto) --> se usa quando NÃO SE SABE antecipadamente a quantidade de repetições que será feita.
