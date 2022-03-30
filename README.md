@@ -215,4 +215,12 @@ Exemplo:
 
 * `` while `` (enquanto) --> se usa quando NÃO SE SABE antecipadamente a quantidade de repetições que será feita
 
+Sintaxe:
+
+    while() {
+
+    }
+
+Dentro dos parênteses vêm apenas uma expressão, que é a de teste: `` while (expressão de teste) ``
+
 * `` do while ``
