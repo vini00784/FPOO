@@ -26,6 +26,7 @@ class Fatorial2 {
                 System.out.print("\nNúmero Inválido, informe novamente no campo abaixo\n");
             }
         System.out.println("Deseja continuar? Digite 1 para sim e 2 para não");
+        int sn = sc.nextInt();
         }
     }
 }
