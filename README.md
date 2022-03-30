@@ -223,4 +223,12 @@ Sintaxe:
 
 Dentro dos parênteses vêm apenas uma expressão, que é a de teste: `` while (expressão de teste) ``
 
+Exemplo: 
+
+    contagem de 1 a 10:
+    int i = 1;
+    while (i <= 10) {
+        System.out.print(i)
+    }
+
 * `` do while ``
