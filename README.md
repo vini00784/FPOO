@@ -130,11 +130,18 @@ Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros 
 
 ## Operadores
 * Aritméticos (matemáticos):
-    * `` "+" ``
-    * `` "-" ``
-    * `` "*" ``
-    * `` "/" ``
-    * `` "%" ``
+    * `` "+" `` --> soma
+    * `` "-" `` --> substração
+    * `` "*" `` --> multiplicação
+    * `` "/" `` --> divisão
+    * `` "%" `` --> módulo
+---
+* Aritméticos de atribuição
+    * `` += `` --> fat = fat + i --> fat += i
+    * `` -= `` --> fat = fat - i --> fat -= i
+    * `` *= `` --> fat = fat * i --> fat *= i
+    * `` /= `` --> fat = fat / i --> fat /= i
+    * `` %= `` --> fat = fat % i --> fat %= i
 ---
 * Relacionais (comparação):
     * `` ">" `` --> maior que
