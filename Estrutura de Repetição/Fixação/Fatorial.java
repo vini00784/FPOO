@@ -7,7 +7,7 @@ class Fatorial {
         long fat= n;
         
         for (long i = 2 ; i <= (n-1) ; ++i) {
-            fat=fat * i;
+            fat *= i;
         }
         System.out.print("\n" + n + "! = " + fat + "\n");
     }
