@@ -212,5 +212,7 @@ Exemplo:
     }
 
 ---
-* `` while `` (enquanto) --> se usa quando NÃO SE SABE antecipadamente a quantidade de repetições que será feita.
+
+* `` while `` (enquanto) --> se usa quando NÃO SE SABE antecipadamente a quantidade de repetições que será feita
+
 * `` do while ``
