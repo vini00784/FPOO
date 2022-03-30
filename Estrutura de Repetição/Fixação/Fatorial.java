@@ -9,6 +9,6 @@ class Fatorial {
         for (long i = (n-1) ; i >= 2 ; --i) {
             fat=fat * i;
         }
-        System.out.print("\n" + n + "!!! = " + fat + "\n");
+        System.out.print("\n" + n + "! = " + fat + "\n");
     }
 }
