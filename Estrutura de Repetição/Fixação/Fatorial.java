@@ -3,10 +3,12 @@
 
 class Fatorial {
     public static void main(String args[]) {
-        int n = 5;
+        long n = 15;
+        long fat= n;
         
-        for (int i = 1 ; i <= 4 ; ++i) {
-            System.out.print("\n" + n + "! = " + ;
+        for (long i = (n-1) ; i >= 2 ; --i) {
+            fat=fat * i;
         }
+        System.out.print("\n" + n + "! = " + fat + "\n");
     }
 }
