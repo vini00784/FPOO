@@ -41,6 +41,17 @@ Espaço reservado (alocado) na memória RAM (principal) do computador para guard
 ---
 * NÃO podem começar com caracteres especiais e nem números.
 ---
+
+## Tipos primitivos (criados juntamente com a linguagem)
+* `` boolean ``
+* `` 
+* ``
+* ``
+* ``
+* ``
+* ``
+* ``
+
 ### Númericas inteiras
 * Para números inteiros: byte; short; int; long (int idade = 10;)
     * `` byte `` ---- Byte (classe wrapper (associada) do tipo primitivo byte) --> `` 8 bits ``
@@ -61,24 +72,37 @@ Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros 
 
 ---
 ### Textuais (String)
-* String (classe não primitiva)
-* Tudo aquilo que está entre aspas *
-    * String literal (letras): "Bom dia"
-    * String numérica (caracteres numéricos): "100" (Os únicos caracteres especiais que entram na string numérica são o ponto (.) e o sinal de menos (-)).
-    * String alfanumérica (letras, números e até caracteres especiais como #$%&*): "abc#$%/123"
+String (classe não primitiva)
+
+Tudo aquilo que está entre aspas
+
+* String literal (letras): "Bom dia"
+* String numérica (caracteres numéricos): "100" (Os únicos caracteres especiais que entram na string numérica são o ponto (.) e o sinal de menos (-)).
+* String alfanumérica (letras, números e até caracteres especiais como #$%&*): "abc#$%/123"
 
 #### Tipo char (método da classe String)
 char --> caractere
 
-charAt(n) --> retorna o caracter da posição especificada
+`` charAt(n) `` --> retorna o caracter da posição especificada
+
+    String nome = "maria";
+    char letra = nome.charAt(n);
+    n=0 --> primeiro caractere
+    n=1 --> segundo caractere 
 
 Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for char (caractere) é escrito entre apóstrofo, ou aspas simples (`` ' ' ``).
 
     char nome_da_variável = ' ';
 
-
-
 ---
+`` equals() `` --> faz a comparação de igualdade entre Strings
+
+    char letra = nome.charAt(2);
+
+    if (nome.equals("maria")) {
+        
+    }
+
 
 ## Códigos especiais para String
 * APENAS para strings, ou seja, dentro das aspas
@@ -88,7 +112,6 @@ Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for cha
     * System.out.println("\n\n\tOi\n")
     * Aqui ele vai pular 2 linhas, dar um parágrafo, escrever "Oi" e depois pular outra linha. Sem contar a outra linha pulada do println
 
----
 
 ## Conversão de string numérica em número 
 * Métodos parse
@@ -100,7 +123,6 @@ Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for cha
         * int nInt = Integer.parseInt(n); 
         * A primeira linha era uma string numérica, não se tratando ainda de um número própriamente dito, já na segunda, o conteúdo da variável "nStr" deixa de ser uma string numérica e passa a ser um número.
 
----
 
 ## Tipos primitivos e suas classes wrapper
 * byte ==> Byte ==> parseByte() (método parse da classe)
@@ -110,8 +132,6 @@ Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for cha
 ---
 * float ==> Float ==> parseFloat() (método parse da classe)
 * double ==> Double ==> parseDouble() (método parse da classe)
-
----
 
 ## Entrada de dados gráfica (Classe JOptionPane)
 
@@ -150,7 +170,7 @@ Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for cha
     * `` /= `` --> fat = fat / i --> fat /= i
     * `` %= `` --> fat = fat % i --> fat %= i
 ---
-* Relacionais (comparação):
+* Relacionais ou comparação (comparação apenas entre tipos primitivos):
     * `` ">" `` --> maior que
     * `` "<" `` --> menor que
     * `` ">=" ``  --> maior ou igual
