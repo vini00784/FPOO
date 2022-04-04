@@ -3,29 +3,41 @@ import java.util.Scanner;
 class Fatorial2 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int sim = 1;
-        int nao = 2;
 
         while (true) {
             while (true) {
                 System.out.print("\nInforme um número positivo: ");
                 int n = sc.nextInt();
+
+                if (n == 0) {
+                    System.out.print("\n" + n + "! = 1" + "\n");
+                    break;
+                }
+
                 long fat = n;
 
                 if (n >= 0) {
-                    if (n == 0) {
-                        System.out.print("\n" + n + "! = 1" + "\n");
-                        break;
-                    }
                     for ( int i=2 ; i<n ; i++ ) {
                         fat *= i;
                     }
                     System.out.print("\n" + n + "! = " + fat + "\n");
-                    System.exit(0);
+                    break;
                 }
                 System.out.print("\nNúmero Inválido, informe novamente no campo abaixo\n");
             }
-            System.out.println("Deseja continuar? S/N");
+
+            // Código adicionado
+            System.out.println("Deseja continuar? [s/n]");
+            String op = sc.next();
+            if (!op.equals("sim") && !op.equals("Sim") && !op.equals("yes") && !op.equals("Yes")) {
+                System.exit(0);
+            }
         }
     }
 }
+
+// Uma das formas de se fazer o usuário repetir o código:
+// System.out.println("Deseja continuar? [s/n]");
+//             char op = sc.next().charAt(0);
+//             if (op != 's' && op != 'y') {
+//                 System.exit(0);
