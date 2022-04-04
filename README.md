@@ -67,10 +67,16 @@ Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros 
     * String numérica (caracteres numéricos): "100" (Os únicos caracteres especiais que entram na string numérica são o ponto (.) e o sinal de menos (-)).
     * String alfanumérica (letras, números e até caracteres especiais como #$%&*): "abc#$%/123"
 
----
-### Tipo char
+#### Tipo char (método da classe String)
 char --> caractere
+
+charAt(n) --> retorna o caracter da posição especificada
+
 Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for char (caractere) é escrito entre apóstrofo, ou aspas simples (`` ' ' ``).
+
+    char nome_da_variável = ' ';
+
+
 
 ---
 
