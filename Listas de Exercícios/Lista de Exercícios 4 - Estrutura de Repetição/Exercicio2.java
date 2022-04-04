@@ -6,6 +6,7 @@ class Exercicio2 {
 
         String usuarioCadastrado = "Jacinto Leite Aquino Rego";
         String senha = "abc123";
+        int rep = 1;
 
         while (rep < 4) {
             for ()
