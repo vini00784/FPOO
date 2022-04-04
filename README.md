@@ -103,6 +103,7 @@ Tudo que for string é escrito entre aspas dupla (`` " " ``), e tudo que for cha
         
     }
 
+Não existe um método específico para uma comparação de diferença, mas usando o operador lógico `` ! `` (not), isso se torna possível
 
 ## Códigos especiais para String
 * APENAS para strings, ou seja, dentro das aspas
