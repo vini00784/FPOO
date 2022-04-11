@@ -10,7 +10,9 @@ class Exercicio6 {
         for (int i = 53 ; i>=1 ; i--) {
             System.out.print(ch);
         }
+
         System.out.print( "\n" + ch + "     Desenvolvimento de Sistemas - Turma DS1-T     " + ch + "\n");
+        
         for (int i = 53 ; i>=1 ; i--) {
             System.out.print(ch);
         }
