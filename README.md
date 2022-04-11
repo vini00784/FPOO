@@ -42,6 +42,20 @@ Espaço reservado (alocado) na memória RAM (principal) do computador para guard
 * NÃO podem começar com caracteres especiais e nem números.
 ---
 
+### Escopo
+Escopo de variável = visibilidade
+
+    int n = 0;
+
+    while (n < 10) {
+        x = 100;
+        n++;
+    }
+
+    System.out.print(x);
+
+Nesse caso, o System.print daria errado, porque a variável x é uma `` variável local ``, que foi criada em um bloco específico, então ela só existe lá. Então, para que tudo dê certo, ela deve ser declarada fora do bloco while.
+
 ## Tipos primitivos (criados juntamente com a linguagem)
 * `` boolean ``
 * `` 
