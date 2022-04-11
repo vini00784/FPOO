@@ -18,7 +18,7 @@ class Exercicio2 {
 
                 if (user.equals(usuarioCadastrado) && senha.equals(senhaCadastrada)) {
                     System.out.println("Seja bem-vindo(a)!");
-                    break;
+                    System.exit(0);
                 } else {
                     System.out.println("Usuário incorreto ou senha incorretos");
                     rep++;
