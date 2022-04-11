@@ -48,7 +48,7 @@ Escopo de variável = visibilidade
     int n = 0;
 
     while (n < 10) {
-        x = 100;
+        x = 100; ----> variável local (só existe ali)
         n++;
     }
 
