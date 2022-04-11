@@ -3,10 +3,11 @@ import java.util.Scanner;
 class Exercicio10 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        int n = 0;
 
         while (true) {
             System.out.print("\nDigite um inteiro >= 2: ");
-            int n = sc.nextInt();
+            n = sc.nextInt();
             if (n >= 2) {
                 break;
             }
