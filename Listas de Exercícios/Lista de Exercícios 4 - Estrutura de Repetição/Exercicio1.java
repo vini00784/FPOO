@@ -1,26 +1,25 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 class Exercicio1 {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        JOptionPane jp = new JOptionPane();
 
         // é par se n%2==0
         while(true) {
             while (true) {
-                System.out.print("\nInforme um número inteiro: ");
-                int n1 = sc.nextInt();
+                int n1 = Integer.parseInt(jp.showInputDialog(null, "Informe um número inteiro: "));
 
                 if (n1 % 2 == 0) {
-                    System.out.print("\n" + n1 + ": é um número par");
+                    jp.showMessageDialog(null, "\n" + n1 + ": é um número par");
                     break;
                 } else {
-                    System.out.println("\n" + n1 + ": é um número ímpar");
+                    jp.showMessageDialog(null, "\n" + n1 + ": é um número ímpar");
                     break;
                 }
             }
 
-            System.out.println("Deseja continuar? [s/n]");
-            String op = sc.next();
+            String op = (jp.showInputDialog(null, "Deseja continuar? [s/n]"));
+
             if (!op.equals("sim") && !op.equals("Sim") && !op.equals("yes") && !op.equals("Yes")) {
                 System.exit(0);
             }
