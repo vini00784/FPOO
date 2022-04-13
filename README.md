@@ -290,7 +290,7 @@ Todos eles iniciam com letra minúscula e terminam com parênteses
 
 Criando nossos próprios métodos:
 
-    public static void main()
+    public static void main(String args[])
 
 O <strong>primeiro</strong> item a ser especificado é o modificador de acesso ou visibilidade, que nesse caso é `` public ``
 
@@ -306,3 +306,11 @@ O <strong>segundo</strong> item é o tipo de retorno, no caso `` void ``
 * void --> vazio, usado em métodos que não retornam nada
 * int
 * double
+
+E <strong>por último</strong>, o nome do método precedido de parênteses (que podem ou não conter argumento), no caso, `` main() ``
+
+Criação de um método para fazer uma calculadora simples de números decimais:
+
+    public static double(double n1, double n2) {
+        return (n1 + n2);
+    }
