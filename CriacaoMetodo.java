@@ -13,6 +13,10 @@ class CriacaoMetodo {
         double mul = multiplicar(n1, n2);
         double div = dividir(n1, n2);
 
+        // if (n2 == 0) {
+        //     jp.showMessageDialog(null, "Nao eh possivel dividir por zero!");
+        // }
+
         jp.showMessageDialog(null, n1 + " + " + n2 + " eh igual a: " + ad);
         jp.showMessageDialog(null, n1 + " - " + n2 + " eh igual a: " + sub);
         jp.showMessageDialog(null, n1 + " * " + n2 + " eh igual a: " + mul);
