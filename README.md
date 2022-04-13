@@ -285,3 +285,16 @@ Servem para executar apenas UMA ação específica
 * `` pow() ``
 * `` sqrt() ``
 * `` next() ``
+
+Todos eles iniciam com letra minúscula e terminam com parênteses
+
+Criando nossos próprios métodos:
+
+    public static void main()
+
+O <strong>primeiro</strong> item a ser especificado é o modificador de acesso ou visibilidade, que nesse caso é `` public ``.
+
+* public --> público
+* private --> privado, dispoível apenas para alguns
+* default --> padrão
+* protecter --> protegido
