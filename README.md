@@ -292,9 +292,17 @@ Criando nossos próprios métodos:
 
     public static void main()
 
-O <strong>primeiro</strong> item a ser especificado é o modificador de acesso ou visibilidade, que nesse caso é `` public ``.
+O <strong>primeiro</strong> item a ser especificado é o modificador de acesso ou visibilidade, que nesse caso é `` public ``
 
 * public --> público
-* private --> privado, dispoível apenas para alguns
+* private --> privado, disponível apenas para alguns
 * default --> padrão
 * protecter --> protegido
+
+* static --> estático, visibilidade especial, pode ou não ser utilizado
+
+O <strong>segundo</strong> item é o tipo de retorno, no caso `` void ``
+
+* void --> vazio, usado em métodos que não retornam nada
+* int
+* double
