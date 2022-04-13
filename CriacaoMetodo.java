@@ -19,18 +19,22 @@ class CriacaoMetodo {
         jp.showMessageDialog(null, n1 + " / " + n2 + " eh igual a: " + div);
     }
 
+    // Soma:
     public static double somar(double n1, double n2) {
         return(n1+n2);
     }
 
+    // Subtração:
     public static double subtrair(double n1, double n2) {
         return(n1-n2);
     }
 
+    // Multiplicação:
     public static double multiplicar(double n1, double n2) {
         return(n1*n2);
     }
 
+    // Divisão:
     public static double dividir(double n1, double n2) {
         return(n1/n2);
     }
