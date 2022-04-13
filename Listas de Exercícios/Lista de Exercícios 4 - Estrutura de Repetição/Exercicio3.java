@@ -19,12 +19,14 @@ class Exercicio3 {
 
         long cont = base;
 
+        if (exp==0) {
+            System.out.println(base + "^" + exp + " eh igual a: 1 ");
+            System.exit(0);
+        }
+
         for (long i = exp-1 ; i >=1 ; i--) {
             cont *= base;
-            if (exp==0) {
-                System.out.println(base + "^" + exp + " eh igual a: 1 ");
-        }
-        }
+        } 
         System.out.println(base + "^" + exp + " eh igual a: " + cont);
     }
 }
