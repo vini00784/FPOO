@@ -274,3 +274,14 @@ Exemplo:
     }
 
 * `` do while ``
+
+---
+
+## Métodos
+Servem para executar apenas UMA ação específica
+
+* `` main() `` --> principal, inicia a execução do código, tudo começa a partir dele
+* `` println() ``
+* `` pow() ``
+* `` sqrt() ``
+* `` next() ``
