@@ -311,6 +311,14 @@ E <strong>por último</strong>, o nome do método precedido de parênteses (que 
 
 Criação de um método para fazer uma calculadora simples de números decimais:
 
-    public static double(double n1, double n2) {
-        return (n1 + n2);
+    class Calculadora {
+        public static void main(String args[]) {
+            double n1 = 10.0;
+            double n2 = 5.5;
+            double resultado = somar(n1,n2) --> isso irá fazer o método main chamar o método somar
+        }
+        
+        public static double(double n1, double n2) {
+            return (n1 + n2);
+        } 
     }
