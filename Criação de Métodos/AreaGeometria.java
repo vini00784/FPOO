@@ -90,7 +90,7 @@ class AreaGeometria {
         System.out.println("Insira o valor de pi: ");
         pi = areaCirculo.nextDouble();
 
-        return (raio * pi);
+        return (raio * raio * pi);
     }
 
     public static double retangulo(double altura, double base) {
