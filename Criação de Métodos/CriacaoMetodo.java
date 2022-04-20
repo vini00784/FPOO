@@ -1,12 +1,14 @@
 // Implementar uma calculadora em JAVA que efetua as quatro operações algébricas, usando um método para cada alteração, sendo que cada um recebe e retorna números decimais.
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 class CriacaoMetodo {
     public static void main(String args[]) {
-        JOptionPane jp = new JOptionPane();
+        Scanner sc = new Scanner(System.in);
 
-        double n1 = Double.parseDouble(jp.showInputDialog(null, "Informe um nmr qualquer: "));
-        double n2 = Double.parseDouble(jp.showInputDialog(null, "Informe outro nmr "));
+        System.out.print("Informe um nmr qualquer: ");
+        double n1 = sc.nextDouble();
+        System.out.print("Informe outro nmr: ");
+        double n2 = sc.nextDouble();
 
         double ad = somar(n1, n2);
         double sub = subtrair(n1, n2);
@@ -17,10 +19,10 @@ class CriacaoMetodo {
         //     jp.showMessageDialog(null, "Nao eh possivel dividir por zero!");
         // }
 
-        jp.showMessageDialog(null, n1 + " + " + n2 + " eh igual a: " + ad);
-        jp.showMessageDialog(null, n1 + " - " + n2 + " eh igual a: " + sub);
-        jp.showMessageDialog(null, n1 + " * " + n2 + " eh igual a: " + mul);
-        jp.showMessageDialog(null, n1 + " / " + n2 + " eh igual a: " + div);
+        System.out.println(n1 + " + " + n2 + " eh igual a: " + ad);
+        System.out.println(n1 + " - " + n2 + " eh igual a: " + sub);
+        System.out.println(n1 + " * " + n2 + " eh igual a: " + mul);
+        System.out.println(n1 + " / " + n2 + " eh igual a: " + div);
     }
 
     // Soma:
@@ -40,7 +42,7 @@ class CriacaoMetodo {
 
     // Divisão:
     public static double dividir(double n1, double n2) {
-        JOptionPane dividir = new JOptionPane();
+        Scanner dividir = new Scanner(System.in);
         if (n2 == 0) {
             return (-1);
         }
