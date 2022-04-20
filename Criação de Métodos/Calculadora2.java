@@ -16,7 +16,7 @@ class Calculadora2 {
         saída(n1, '+', n2, ad);
         saída(n1, '-', n2, sub);
         saída(n1, '*', n2, mul);
-        saída(n1, '/', n2, div);
+        // saída(n1, '/', n2, div);
 
         // System.out.println(n1 + " + " + n2 + " eh igual a: " + ad);
         // System.out.println(n1 + " - " + n2 + " eh igual a: " + sub);
@@ -32,33 +32,33 @@ class Calculadora2 {
     public static double entrada() {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Informe um nmr qualquer: ");
+        System.out.print("Digite um numero: ");
         double num = input.nextDouble();
-        return(num);
+        return num;
     }
 
     // Soma:
     public static double somar(double n1, double n2) {
-        return(n1+n2);
+        return n1+n2;
     }
 
     // Subtração:
     public static double subtrair(double n1, double n2) {
-        return(n1-n2);
+        return n1-n2;
     }
 
     // Multiplicação:
     public static double multiplicar(double n1, double n2) {
-        return(n1*n2);
+        return n1*n2;
     }
 
     // Divisão:
     public static double dividir(double n1, double n2) {
         Scanner dividir = new Scanner(System.in);
         if (n2 == 0) {
-            return (-1);
+            return -1;
         }
-        return(n1/n2);
+        return n1/n2;
     }
 
     // Saída de dados:
