@@ -40,6 +40,10 @@ class CriacaoMetodo {
 
     // Divisão:
     public static double dividir(double n1, double n2) {
+        JOptionPane dividir = new JOptionPane();
+        if (n2 == 0) {
+            return (-1);
+        }
         return(n1/n2);
     }
 }
