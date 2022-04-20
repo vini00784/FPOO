@@ -1,7 +1,7 @@
 // Implementar uma calculadora em JAVA que efetua as quatro operações algébricas, usando um método para cada alteração, sendo que cada um recebe e retorna números decimais.
 import java.util.Scanner;
 
-class CriacaoMetodo {
+class Calculadora {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
