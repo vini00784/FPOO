@@ -20,7 +20,11 @@ class CriacaoMetodo {
         System.out.println(n1 + " + " + n2 + " eh igual a: " + ad);
         System.out.println(n1 + " - " + n2 + " eh igual a: " + sub);
         System.out.println(n1 + " * " + n2 + " eh igual a: " + mul);
-        System.out.println(n1 + " / " + n2 + " eh igual a: " + div);
+        if (div == -1) {
+            System.out.println(n1 + " / " + n2 + " = " + "erro, nn existe divisao por zero");
+        } else {
+            System.out.println(n1 + " / " + n2 + " eh igual a: " + div);
+        }
     }
 
     // Soma:
