@@ -17,10 +17,6 @@ class CriacaoMetodo {
         double mul = multiplicar(n1, n2);
         double div = dividir(n1, n2);
 
-        // if (n2 == 0) {
-        //     jp.showMessageDialog(null, "Nao eh possivel dividir por zero!");
-        // }
-
         System.out.println(n1 + " + " + n2 + " eh igual a: " + ad);
         System.out.println(n1 + " - " + n2 + " eh igual a: " + sub);
         System.out.println(n1 + " * " + n2 + " eh igual a: " + mul);
