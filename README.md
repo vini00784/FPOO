@@ -322,3 +322,6 @@ Criação de um método para fazer uma calculadora simples de números decimais:
             return (n1 + n2);
         } 
     }
+
+## Static
+Métodos que são static só conseguem se comunicar com outros métodos static.
