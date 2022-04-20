@@ -10,6 +10,8 @@ class CriacaoMetodo {
         System.out.print("Informe outro nmr: ");
         double n2 = sc.nextDouble();
 
+        System.out.println();
+
         double ad = somar(n1, n2);
         double sub = subtrair(n1, n2);
         double mul = multiplicar(n1, n2);
