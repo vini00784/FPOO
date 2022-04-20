@@ -325,3 +325,5 @@ Criação de um método para fazer uma calculadora simples de números decimais:
 
 ## Static
 Métodos que são static só conseguem se comunicar com outros métodos static.
+
+Uma variável também pode ser static, mas somente quando o método em que ela está inserida também for static. Variáveis static existirão independentemente do seu método, ou seja, basta o programa estar rodando.
