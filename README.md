@@ -340,3 +340,9 @@ Para criar um vetor, basta colocar `` [] `` após o nome ou após o tipo da "var
 É preciso também especificar a quantidade de valores que o vetor irá receber:
 
     int n[] = {5, 3, 7};
+
+O primeiro elemento do vetor é sempre o da ponta esquerda, e o último é o da ponta direita. Numa contagem, não começa pelo 1, e sim com o zero, sendo 0,1,2,3 até o fim. Então, para dizer que você quer o terceiro elemento de um vetor, ficaria assim:
+
+    int num = n[2]
+
+No exemplo acima, a variável `` num `` receberia o valor do terceiro valor dentro do vetor `` n ``, que é igual a 7.
