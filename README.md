@@ -337,3 +337,6 @@ Para criar um vetor, basta colocar ´´ [] ´´ após o nome ou após o tipo da 
     int[] n;
     double n3[];
 
+É preciso também especificar a quantidade de valores que o vetor irá receber:
+
+    int n[] = {5, 3, 7};
