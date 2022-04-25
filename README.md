@@ -346,4 +346,4 @@ O primeiro elemento do vetor é sempre o da ponta esquerda, e o último é o da 
     int n[] = {5, 3, 7};
     int num = n[2];
 
-No exemplo acima, a variável `` num `` receberia o valor do terceiro valor dentro do vetor `` n ``, que é igual a 7.
+No exemplo acima, a variável `` num `` receberia o terceiro valor dentro do vetor `` n ``, que é igual a 7.
