@@ -331,7 +331,7 @@ Uma variável também pode ser static, mas somente quando o método em que ela e
 ## Vetores e Varáveis
 De uma forma resumida, os vetores servem para guardar um conjunto de variáveis. Ex.: No caso de guardar várias notas, teríamos que criar uma variável para cada nota, mas usando vetores podemos evitar essa repetição, pois eles são capazes de guardar diversps valores.
 
-Para criar um vetor, basta colocar ´´ [] ´´ após o nome ou após o tipo da "variável": 
+Para criar um vetor, basta colocar `` [] `` após o nome ou após o tipo da "variável": 
 
     int n[];
     int[] n;
