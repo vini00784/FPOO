@@ -327,3 +327,6 @@ Criação de um método para fazer uma calculadora simples de números decimais:
 Métodos que são static só conseguem se comunicar com outros métodos static.
 
 Uma variável também pode ser static, mas somente quando o método em que ela está inserida também for static. Variáveis static existirão independentemente do seu método, ou seja, basta o programa estar rodando.
+
+## Vetores e Varáveis
+De uma forma resumida, os vetores servem para guardar um conjunto de variáveis. Ex.: No caso de guardar várias notas, teríamos que criar uma variável para cada nota, mas usando vetores podemos evitar essa repetição, pois eles são capazes de guardar diversps valores.
