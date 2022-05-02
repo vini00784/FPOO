@@ -347,3 +347,16 @@ O primeiro elemento do vetor é sempre o da ponta esquerda, e o último é o da 
     int num = n[2];
 
 No exemplo acima, a variável `` num `` receberia o terceiro valor dentro do vetor `` n ``, que é igual a 7.
+
+## Matrizes
+Um vetor possui apenas um linha, sendo a quantidades de colunas correspondente à quantidade de valores dentro do vetor. Já uma `` matriz `` se comporta literalmente como uma tabela, sendo o primeiro elemento (0,0), como no plano cartesiano que o primeiro a ser especificado é o eixo horizontal.
+
+![](./imgs-readme/img01.PNG)
+
+Para se criar uma matriz, basta usar:
+
+    int m[][] = new int[3][3];
+    m[1][2] = -5; --> a linha 1 coluna 2 vale -5
+    m[2][1] = 4; --> a linha 2 coluna 1 vale 4
+
+O <strong>primeiro</strong> colchete se refere ao eixo horizontal (linha), e o <strong>segundo</strong> se refere ao eixo vertical (colunas).
