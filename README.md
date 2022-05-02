@@ -356,7 +356,7 @@ Um vetor possui apenas um linha, sendo a quantidades de colunas correspondente Ã
 Para se criar uma matriz, basta usar:
 
     int m[][] = new int[3][3];
-    m[1][2] = -5; --> a linha 1 coluna 2 vale -5
-    m[2][1] = 4; --> a linha 2 coluna 1 vale 4
+    m[1][2] = -5;
+    m[2][1] = 4;
 
 O <strong>primeiro</strong> colchete se refere ao eixo horizontal (linha), e o <strong>segundo</strong> se refere ao eixo vertical (colunas).
