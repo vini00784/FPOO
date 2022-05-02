@@ -1,41 +1,41 @@
-import java.util.Scanner;
-
 class ExercicioVetor {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        double numeros[] = new double[5];
-        for (int i = 0 ; i < numeros.length ; i++) {
-            numeros[i] = entrada();
+        double numeros[] = new double[args.length];
+
+        for (int i = 0 ; i<args.length ; i++) {
+            numeros[i] = Double.parseDouble(args[i]);
         }
-        System.out.println();
-        
-        double media = media();
-        System.out.println();
-        System.out.println("A media desses numeros eh: " + media);
+
+        System.out.println("Média: " + media(numeros));
+        System.out.println("Menor némero: " + menor(numeros));
+        System.out.println("Maior némero: " + maior(numeros));
     }
 
-    public static double entrada() {
-        Scanner input = new Scanner(System.in);
-        
-        System.out.print("Número: ");
-        double num = input.nextDouble();
-        return (num);
+    public static double media(double vet[]) {
+        double total = 0;
+        for (int i = 0 ; i<vet.length ; i++) {
+            total += vet[i];
+        }
+        return total / vet.length;
     }
 
-    public static double media() {
-        Scanner media = new Scanner(System.in);
-        double somaNum = 0;
-        double numeros[] = new double[5];
-
-        for (int i = 0 ; i < numeros.length ; i++) {
-            System.out.println((i + 1) + "° numero: " + numeros[i]);
-            somaNum = somaNum + numeros[i];
+    public static double menor(double vet2[]) {
+        double menor = vet2[0];
+        for (int i = 1 ; i<vet2.length ; i++) {
+            if (menor > vet2[i]) {
+                menor = vet2[i];
+            }
         }
-        return (somaNum / numeros.length);
+        return menor;
+    }
+
+    public static double maior(double vet3[]) {
+        double maior = vet3[0];
+        for (int i = 1 ; i<vet3.length ; i++) {
+            if (maior < vet3[i]) {
+                maior = vet3[i];
+            }
+        }
+        return maior;
     }
 }
-
-// for (int i = 0 ; i < numeros.length ; i++) {
-//     System.out.print((i + 1) + "° numero: ");
-//     numeros[i] = input.nextDouble();
-// }
