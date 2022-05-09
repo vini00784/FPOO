@@ -380,4 +380,10 @@ Para criar uma Array List, é preciso importar uma classe, já que foi uma funci
 Para criar uma de fato:
 
     ArrayList<Integer> idade = new ArrayList<Integer>();
-    Dentro dos "<>", se colocar a classe referente ao tipo do ArrayList.
+    Dentro dos "<>", se coloca a classe referente ao tipo do ArrayList.
+
+Criando uma lista de cidades:
+
+    ArrayList<String> cidades = new ArrayList<String>();
+    cidades.add("Santa Catarina");
+    cidades.add("São Paulo");
