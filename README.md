@@ -368,3 +368,7 @@ Não existe vetor ou matriz com tamanho indeterminado ou infinito, sempre tem um
 
 ## Array List
 Array --> Matriz
+
+Pode ser criado sem a especificação do número de elementos, eles podem ser adicionados conforme as necessidades.
+
+Pode armazenar elementos de tipos diferentes, como string, int, double e etc., é totalmente flexível.
