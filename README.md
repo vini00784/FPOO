@@ -360,3 +360,11 @@ Para se criar uma matriz, basta usar:
     m[2][1] = 4;
 
 O <strong>primeiro</strong> colchete se refere ao eixo horizontal (linha), e o <strong>segundo</strong> se refere ao eixo vertical (colunas).
+
+### Particularidades sobre Vetores e Matrizes
+Matrizes e Vetores só podem receber informações do mesmo tipo, então, numa matriz do tipo int não é possível guardar variáveis do tipo String.
+
+Não existe vetor ou matriz com tamanho indeterminado ou infinito, sempre tem um tamanho especificado.
+
+## Array List
+Array --> Matriz
