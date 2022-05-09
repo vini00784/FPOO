@@ -372,3 +372,12 @@ Array --> Matriz
 Pode ser criado sem a especificação do número de elementos, eles podem ser adicionados conforme as necessidades.
 
 Pode armazenar elementos de tipos diferentes, como string, int, double e etc., é totalmente flexível.
+
+Para criar uma Array List, é preciso importar uma classe, já que foi uma funcionalidade implementada posterior à criação do Java e não está no pacote java lang:
+
+    import java.util.ArrayList;
+
+Para criar uma de fato:
+
+    ArrayList<Integer> idade = new ArrayList<Integer>();
+    Dentro dos "<>", se colocar a classe referente ao tipo do ArrayList.
