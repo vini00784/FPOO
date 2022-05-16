@@ -387,3 +387,32 @@ Criando uma lista de cidades:
     ArrayList<String> cidades = new ArrayList<String>();
     cidades.add("Santa Catarina");
     cidades.add("São Paulo");
+
+## Erros
+
+`` De sintaxe `` --> quando a sintaxe tá errada, ou seja, não se respeita a regra da linguagem de programação
+
+`` De semântica `` --> quando o programa retorna algo que não deveria, não há coerência. Ex.:
+
+`` Exceções `` --> erros causados pela entrada de dados do usuário
+
+## Tratamento de Exceção
+Usados justamente para tratarem erros ocorridos por conta de alguma exceção. Se usa:
+
+    try {
+
+    }
+
+    catch () {
+
+    }
+
+OBS.: <strong>NÃO PODE</strong> conter algo entre o try e o catch, o catch sempre virá após o try.
+
+Exceções são geradas nas entradas de dados, caso o usuário digite algo que não se adeque às especificações do programa.
+
+O `` try `` serve para colocarmos as linhas do código que podem gerar alguma exceção
+
+O `` catch `` serve para, caso uma exceção seja encontrada no try, aconteça um desvio do fluxo de processamento de dados para o catch. Ex.: há um `` int num = sc.nextInt()`` dentro do try e é encontrada uma exceção, o catch desvia essa linha de código para que ela não seja executada, e então pode ser exibida uma mensagem ao invés de um código.
+
+Dentro dos `` () `` do catch, é especificado o tipo da exceção.
