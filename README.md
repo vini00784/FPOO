@@ -416,3 +416,39 @@ O `` try `` serve para colocarmos as linhas do código que podem gerar alguma ex
 O `` catch `` serve para, caso uma exceção seja encontrada no try, aconteça um desvio do fluxo de processamento de dados para o catch. Ex.: há um `` int num = sc.nextInt()`` dentro do try e é encontrada uma exceção, o catch desvia essa linha de código para que ela não seja executada, e então pode ser exibida uma mensagem ao invés de um código.
 
 Dentro dos `` () `` do catch, é especificado o tipo da exceção.
+
+## Programação Orientada a Objeto (POO)
+Todo objeto possui: características e funcionalidade
+
+Características:
+* Propriedades 
+* Atributos
+* Campo
+
+Funcionalidade
+* O que ele faz
+* Para que o objeto serve
+* No caso, os métodos
+
+---
+### Três pilares
+* Encapsulamento
+* Herança
+* Polimorfismo
+
+### Encapsulamento
+É deixar protegido, encapsulado.
+
+É obrigatório encapsular os atributos, ou seja, ao invés de deixar `` public ``, se deixa `` private ``. O que nos leva a necessidade de um mecanismo que nos possibilite ter acesso aos métodos encapsulados, no caso os `` getters `` e `` setters ``
+
+---
+## Classe
+É uma abstração de um objeto
+
+Abstração --> Observar, extrair todas as informações, se aprofundar no objeto e verificar suas funcionalidades
+
+## Objeto 
+Instância em uma classe, pois é criado a partir dela.
+
+## Atributo
+Criado dentro da <strong>CLASSE</strong>, fora de qualquer método.
